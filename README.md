@@ -24,5 +24,56 @@ This project is based on the IEEE paper:
 
 ---
 
-## 📁 Repository Structure
+---
+
+##  Benchmark Problem
+
+- **TNK Problem**
+  - Two objective functions
+  - Nonlinear constraints
+  - Known constrained Pareto front
+  - Widely used benchmark for CMOP evaluation
+
+---
+
+##  Methodology Overview
+
+1. Initialize a shared population
+2. Solve the **Target Task** using strict constraint handling
+3. Solve the **Source Task** using relaxed constraints
+4. Gradually shrink the constraint relaxation boundary
+5. Perform adaptive knowledge transfer between tasks
+6. Apply evolutionary operators (SBX crossover and Polynomial Mutation)
+7. Perform non-dominated sorting and environmental selection
+8. Extract final feasible Pareto-optimal solutions
+
+---
+
+##  Academic Context
+
+- **Course**: Optimization Techniques  
+- **Degree**: Bachelor of Technology (B.Tech)  
+- **Branch**: Artificial Intelligence / Information Technology  
+- **Institute**: National Institute of Technology Karnataka, Surathkal  
+
+---
+
+##  Authors
+
+- **Nayana Yogeshwari P M** (231AI023)  
+- **Nandeesh V Nayak** (231AI022)
+
+---
+
+##  License
+
+This project is intended strictly for **academic and research purposes**.  
+If you use or extend this work, please cite the original IEEE publication.
+
+---
+
+##  Acknowledgements
+
+- Authors of the original Multiform Optimization Framework
+- `pymoo` library for providing multiobjective optimization tools
 
