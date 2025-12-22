@@ -24,8 +24,6 @@ This project is based on the IEEE paper:
 
 ---
 
----
-
 ##  Benchmark Problem
 
 - **TNK Problem**
