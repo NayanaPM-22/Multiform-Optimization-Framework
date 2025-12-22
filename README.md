@@ -46,6 +46,30 @@ This project is based on the IEEE paper:
 8. Extract final feasible Pareto-optimal solutions
 
 ---
+##  How to Run
+
+Clone this repository:
+
+git clone https://github.com/your-username/multiform-optimization-framework.git
+cd multiform-optimization-framework
+
+
+Run the main script:
+
+python mfo_framework.py
+
+
+The script will:
+
+Generate the true Pareto front for the TNK problem
+
+Run MFO/AKT
+
+Run Baseline NSGA-II
+
+Compute HV and IGD metrics
+
+Plot and save Pareto front comparison
 
 ##  Academic Context
 
